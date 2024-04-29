@@ -8,7 +8,7 @@ import Card from "./components/Card";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Create />} />
+      <Route path="/create" element={<Create />} />
       <Route path="/hotels/:id" element={<Details />} />
       <Route path="*" element={<NotFound />} />
       <Route path="/" element={<Card />} />
